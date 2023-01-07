@@ -1,0 +1,8 @@
+n=int(input())
+l=list(map(int,input().split()))
+temp_list = []
+for i in l:
+    if i not in temp_list:
+        temp_list.append(i)
+l = temp_list
+print("List removing duplicates ",l)
